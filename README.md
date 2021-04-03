@@ -32,7 +32,7 @@ I did not include the mobile screenshots since it is very long ahahaa
 
 ### Links
 
-Live Site URL: [Live site of the challenge hosted here](https://pikapikamart.github.io/rock-paper-scissor/)
+Live Site URL: [Live site of the challenge hosted here](https://pikapikamart.github.io/frontendmentor-rock-paper-scissor/)
 
 ## My process
 
