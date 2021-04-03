@@ -196,7 +196,7 @@ const gameEngine = () => {
                     break;
                 case "lose":
                     resultText.childNodes[0].nodeValue = "YOU LOSE";
-                    winner = playerChoice;
+                    winner = computerChoice;
                     setTimeout(() => {
                         computerChoice.classList.add("shadow-winner");
                     }, 1500);
