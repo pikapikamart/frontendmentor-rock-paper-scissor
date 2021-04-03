@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+  <!-- Link for the FONTS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Link for the css -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      color: white;
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="flex flex--j-between flex--a-center heading">
+    <img src="images/logo.svg" alt="logo of the website">
+    <div class="flex flex--column flex--j-center flex--a-center score-container">
+      <p>SCORE</p>
+      <h1 class="score">0</h1>
+    </div>
+  </section>
+  <section class="play-container">
+    <div class="flex flex--j-between pick-text">
+      <p>YOU PICKED</p>
+      <p>THE HOUSE PICKED</p>
+    </div>
+    <a href="#" data-toggle="choices" data-value="paper" class="flex flex--a-center flex--j-center circle paper">
+      <img src="images/icon-paper.svg" alt="vector icon of paper">
+    </a>
+    <a href="#" data-toggle="choices" data-value="scissor" class="flex flex--a-center flex--j-center circle scissor">
+      <img src="images/icon-scissors.svg" alt="vector icon of scissor">
+    </a>
+    <a href="#" data-toggle="choices" data-value="rock" class="flex flex--a-center flex--j-center circle rock">
+      <img src="images/icon-rock.svg" alt="vector icon of rock">
+    </a>
+    
+    
+    <div class="flex flex--a-center flex--j-center house-pick">
+      <div></div>
+    </div>
+    <div class="result">
+      YOU LOSE
+      <button>PLAY AGAIN</button>
+    </div>
+  </section>
+  <button class="flex flex--j-center flex--a-center rule-button">
+    <span>R</span>
+    <span>U</span>
+    <span>L</span>
+    <span>E</span>
+    <span>S</span>
+  </button>
+  <div class="flex flex--j-center flex--a-center modal_container">
+    <div class="flex flex--column flex--j-between modal">
+      <div class="flex flex--j-between flex--a-center">
+        <h2>RULES</h2>
+        <img class="close-rule" src="images/icon-close.svg" alt="vector icon of close button">
+      </div>
+      <img class="image-rule" src="images/image-rules.svg" alt="image rules of rock paper scissor">
+      </div>
+  </div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://twitter.com/RaymartPamplona" target="_blank">Raymart D. Pamplona</a>.
+  </div>
+  <!-- Link for the javascript file -->
+  <script src="script.js"></script>
+</body>
+
+</html>
