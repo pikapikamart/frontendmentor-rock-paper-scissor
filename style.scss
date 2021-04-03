@@ -237,6 +237,11 @@ div.show-modal {
     }
 }
 
+.choice-image {
+    height: 75px;
+    width: 65px;
+}
+
 .result {
     color: #f5f5f5;
     font-size: 3.375rem;
@@ -548,7 +553,11 @@ div.show-modal {
         &.go-right {
             transform: none !important;
         }
+    }
 
+    .choice-image {
+        height: auto;
+        width: auto;
     }
 
     .house-pick {
